@@ -5,20 +5,20 @@ To implement a policy iteration algorithm for the given MDP.
 ## PROBLEM STATEMENT
 The problem statement is a Five stage slippery walk where there are five stages excluding goal and hole.The problem is stochastic thus doesnt allow transition probability of 1 for each action it takes.It changes according to the state and policy.
 ## State Space:
-The states include two terminal states: 0-Hole[H] and 6-Goal[G]. It has five non terminal states includin starting state.
+The states include two terminal states: 0-Hole[H] and 6-Goal[G]. It has five non terminal states including starting state.
 
 ## Action Space:
-.Left:0
+* Left:0
 
-.Right:1
+* Right:1
 ## Transition Probability:
 The transition probabilities for the problem statement is:
 
-.50% - The agent moves in intended direction.
+* 50% - The agent moves in intended direction.
 
-.33.33% - The agent stays in the same state.
+* 33.33% - The agent stays in the same state.
 
-.16.66% - The agent moves in orthogonal direction.
+* 6.66% - The agent moves in orthogonal direction.
 ## Reward:
 To reach state 7 (Goal) : +1 otherwise : 0
 
